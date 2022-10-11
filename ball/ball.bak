@@ -1,0 +1,12 @@
+#lang racket
+
+
+
+
+(define-struct state (board walls ball rx ry))
+
+(define-struct ball (pos sx sy ax ay))
+
+(define-struct wallh (x1 x2 y))
+
+(define-struct wallv (y1 y2 x))
